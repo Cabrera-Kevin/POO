@@ -1,0 +1,49 @@
+{
+    // Use IntelliSense para saber los atributos posibles.
+    // Mantenga el puntero para ver las descripciones de los existentes atributos.
+    // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "punto1",
+            "request": "launch",
+            "mainClass": "punto1",
+            "projectName": "POO_aff14d0e"
+        },
+        {
+            "type": "java",
+            "name": "tallerVariables",
+            "request": "launch",
+            "mainClass": "tallerVariables",
+            "projectName": "POO_aff14d0e"
+        },
+        {
+            "type": "java",
+            "name": "TallerVariables",
+            "request": "launch",
+            "mainClass": "TallerVariables",
+            "projectName": "POO_aff14d0e"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Expresiones",
+            "request": "launch",
+            "mainClass": "Expresiones",
+            "projectName": "POO_aff14d0e"
+        },
+        {
+            "type": "java",
+            "name": "HolaMundo",
+            "request": "launch",
+            "mainClass": "HolaMundo",
+            "projectName": "POO_aff14d0e"
+        }
+    ]
+}
