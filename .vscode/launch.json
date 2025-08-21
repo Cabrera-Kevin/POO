@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "punto2",
+            "request": "launch",
+            "mainClass": "punto2",
+            "projectName": "POO_aff14d0e"
+        },
+        {
+            "type": "java",
             "name": "punto1",
             "request": "launch",
             "mainClass": "punto1",

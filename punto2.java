@@ -1,0 +1,77 @@
+public class punto2 {
+public static void main(String[] args){
+    double d1=35.0;
+    double d2=72.0;
+    double d3=53.0;
+    double t1=0.7;
+    double t2=1.6;
+    double t3=1.1; 
+    double l1=4.4;
+    double l2=9.0;
+    double l3=6.2;
+    double precioLitro=1.42;
+    double masaCargaKg=1450;
+    double largo=2.2;
+    double ancho=1.3;
+    double alto=1.0;
+    double p1=3.2;
+    double p2=3.8;
+    double p3=2.7;
+    double deprecPorKm=0.085;
+    double volCamionM3=12.0;
+    double fco2=2.64;
+    double galPorLitro=0.264172;
+    int vmin=30;
+    int vmax=90;
+    int va=40;
+    int vb=80;
+    double ca=0.05;
+    double cb=0.09;
+    double a=-0.0009;
+    double b=0.09;
+    double c=3.8; 
+    System.out.println(d1/t1);
+    double v1=50.0;
+    System.out.println(d2/t2);
+    double v2=45.0;
+    System.out.println(d3/t3);
+    double v3=48.0;
+    System.out.println((d1*v1+d2*v2+d3*v3)/(d1+d2+d3));
+    double vprom=47.67;
+    System.out.println(d1/l1);
+    System.out.println(d2/l2);
+    System.out.println(d3/l3);
+    double kml1=7.95;
+    double kml2=8.00;
+    double kml3=8.548;
+    System.out.println((d1+d2+d3)/(l1+l2+l3));
+    double kmltotal=8.163;
+    System.out.println((l1+l2+l3)*precioLitro);
+    double Comb=27.832;
+    System.out.println((d1+d2+d3)*deprecPorKm);
+    double Dep=13.600;
+    System.out.println((p1+p2+p3));
+    double Peaje=9.700;
+    System.out.println(Comb+Dep+Peaje);
+    double Directo=51.132;
+    System.out.println(Directo/(d1+d2+d3));
+    double km=0.320;
+    System.out.println((largo*ancho*alto));
+    double VolumenM3=2.860;
+    System.out.println(masaCargaKg/VolumenM3);
+    double densidad=506.99;
+    System.out.println((VolumenM3/volCamionM3));
+    double Ocupacion=0.238;
+    System.out.println((l1+l2+l3)*fco2);
+    double CO2total=51.744;
+    System.out.println(CO2total/(d1+d2+d3));
+    double CO2porKm=0.323;
+    System.out.println((l1+l2+l3)*galPorLitro);
+    double Galtotal=5.1778;
+    System.out.println((v1+v2+v3)/3);
+    double Vmedia=47.727;
+    System.out.println(Math.sqrt(((Math.pow(v1-Vmedia,2))+(Math.pow(v2-Vmedia,2))+(Math.pow(v3-Vmedia,2)))/3));
+
+}
+    
+}
