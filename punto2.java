@@ -71,7 +71,30 @@ public static void main(String[] args){
     System.out.println((v1+v2+v3)/3);
     double Vmedia=47.727;
     System.out.println(Math.sqrt(((Math.pow(v1-Vmedia,2))+(Math.pow(v2-Vmedia,2))+(Math.pow(v3-Vmedia,2)))/3));
+    double sigma=2.066;
+    System.out.println((t1*v1+t2*v2+t3*v3)/(t1+t2+t3));
+    double vpond_t=47.059;
+    System.out.println((vprom-vmin)/(vmax-vmin));
+    double vnorm=0.289;
+    System.out.println(ca+(cb-ca)*(vprom-va)/(vb-va));
+    double vnorm2=0.057;
+     System.out.println(ca + (cb - ca) * (vprom - va) / (vb - va));
+     double cvprom=0.05715;
+    System.out.println(cvprom * (d1 + d2 + d3));
+    double costoMant=9.144;
+    System.out.println(a * (vprom * vprom) + b * vprom + c);
+    double kmlModelo=6.043;
+    System.out.println((d1+d2+d3)/kmlModelo);
+    double litrosModelo=26.478;
+    double w1=0.25;
+      double w2=0.25;
+      double w3=0.25;
+      double w4=0.25;
+      System.out.println((w1+w2+w3+w4));
+      System.out.println(w1*(1/km) + w2*kmltotal + w3*(1/CO2porKm) + w4*(1/(1+sigma)));
+      double score=3.6777;
 
-}
+
+} 
     
 }
