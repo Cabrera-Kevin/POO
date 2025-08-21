@@ -27,7 +27,7 @@ public class punto1 {
         int vb = 80;
         double ca=0.05;
         double cb=0.09;
-        double a=0.0008;
+        double a=-0.0008;
         double b=0.08;
         double c=4.0;
     
@@ -73,9 +73,25 @@ public class punto1 {
       double vnorm=0.242;
       System.out.println((v1+v2+v3)/3);
       double vmedia=44.984;
-      
+      System.out.println(Math.sqrt(((Math.pow(v1-vmedia,2))+(Math.pow(v2-vmedia,2))+(Math.pow(v3-vmedia,2)))/3));
+      double sigma=2.263;
+      System.out.println((t1*v1+t2*v2+t3*v3)/(t1+t2+t3));
+      double vpond_t=44.419;
+      System.out.println(ca + (cb - ca) * (vprom - va) / (vb - va));
+      double cvprom=0.05455;
+      System.out.println(cvprom * (d1 + d2 + d3));
+      double costoMant=7.511;
+       System.out.println(a * (vprom * vprom) + b * vprom + c);
+        double kmlModelo=5.976;
+      System.out.println((d1+d2+d3)/kmlModelo);
+      double litrosModelo=23.041;
+      double w1=0.25;
+      double w2=0.25;
+      double w3=0.25;
+      double w4=0.25;
+      System.out.println((w1+w2+w3+w4));
+      System.out.println(w1*(1/km) + w2*kmltotal + w3*(1/CO2porKm) + w4*(1/(1+sigma)));
 
-      
 
 
 
