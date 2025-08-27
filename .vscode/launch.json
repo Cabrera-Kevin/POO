@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PracticaCondicionales",
+            "request": "launch",
+            "mainClass": "PracticaCondicionales",
+            "projectName": "POO_aff14d0e"
+        },
+        {
+            "type": "java",
             "name": "punto2",
             "request": "launch",
             "mainClass": "punto2",
