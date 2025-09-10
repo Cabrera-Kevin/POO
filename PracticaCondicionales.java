@@ -109,7 +109,155 @@ public class PracticaCondicionales {
             System.out.println("Alumno entre 50 y 60 kg");
         } else {
             System.out.println("Alumno de 60 kg o más");
+        }//-----------------4.8
+        int a1 = 12, b1 = 4;
+        if (a1 % b1 == 0) {
+            System.out.println(b1 + " es divisor de " + a1);
+        } else if (b1 % a1 == 0) {
+            System.out.println(a1 + " es divisor de " + b1);
+        } else {
+            System.out.println("Ninguno es divisor del otro.");
         }
+
+        //-----------------4.9
+        int a = 90;
+        if (a < 90) {
+            System.out.println("Ángulo Agudo");
+        } else if (a > 90) {
+            System.out.println("Ángulo Obtuso");
+        } else {
+            System.out.println("Ángulo Recto");
+        }
+
+        //-----------------4.10
+        int calificacionNumerica = 87;
+        char calificacionLetra;
+        if (calificacionNumerica >= 90) {
+            calificacionLetra = 'A';
+        } else if (calificacionNumerica >= 80) {
+            calificacionLetra = 'B';
+        } else if (calificacionNumerica >= 70) {
+            calificacionLetra = 'C';
+        } else if (calificacionNumerica >= 69) {
+            calificacionLetra = 'D';
+        } else {
+            calificacionLetra = 'F';
+        }
+        System.out.println("La calificación en letra es: " + calificacionLetra);
+
+        //-----------------4.11
+        double n11 = 12, n22 = 4;
+        char seleccionOp = '+'; 
+        switch (seleccionOp) {
+            case '+':
+                System.out.println("Suma: " + (n11 + n22));
+                break;
+            case '-':
+                System.out.println("Resta: " + (n11 - n22));
+                break;
+            case '*':
+                System.out.println("Multiplicación: " + (n11 * n22));
+                break;
+            case '/':
+                if (n22 != 0) {
+                    System.out.println("División: " + (n11 / n22));
+                } else {
+                    System.out.println("Error: división por cero");
+                }
+                break;
+            default:
+                System.out.println("Operación no válida");
+        }
+        //-----------------4.12
+        double numA = 10.0, numB = 5.0;
+        int codigo = 3;
+        if (codigo == 1) {
+            System.out.println("Suma: " + (numA + numB));
+        } else if (codigo == 2) {
+            System.out.println("Multiplicación: " + (numA * numB));
+        } else if (codigo == 3) {
+            if (numB != 0) {
+                System.out.println("División: " + (numA / numB));
+     //-----------------4.8
+        int a1 = 12, b1 = 4;
+        if (a1 % b1 == 0) {
+            System.out.println(b1 + " es divisor de " + a1);
+        } else if (b1 % a1 == 0) {
+            System.out.println(a1 + " es divisor de " + b1);
+        } else {
+            System.out.println("Ninguno es divisor del otro.");
+        }
+
+        //-----------------4.9
+        int a = 90;
+        if (a < 90) {
+            System.out.println("Ángulo Agudo");
+        } else if (a > 90) {
+            System.out.println("Ángulo Obtuso");
+        } else {
+            System.out.println("Ángulo Recto");
+        }
+
+        //-----------------4.10
+        int calificacionNumerica = 87;
+        char calificacionLetra;
+        if (calificacionNumerica >= 90) {
+            calificacionLetra = 'A';
+        } else if (calificacionNumerica >= 80) {
+            calificacionLetra = 'B';
+        } else if (calificacionNumerica >= 70) {
+            calificacionLetra = 'C';
+        } else if (calificacionNumerica >= 69) {
+            calificacionLetra = 'D';
+        } else {
+            calificacionLetra = 'F';
+        }
+        System.out.println("La calificación en letra es: " + calificacionLetra);
+
+        //-----------------4.11
+        double n11 = 12, n22 = 4;
+        char seleccionOp = '+'; 
+        switch (seleccionOp) {
+            case '+':
+                System.out.println("Suma: " + (n11 + n22));
+                break;
+            case '-':
+                System.out.println("Resta: " + (n11 - n22));
+                break;
+            case '*':
+                System.out.println("Multiplicación: " + (n11 * n22));
+                break;
+            case '/':
+                if (n22 != 0) {
+                    System.out.println("División: " + (n11 / n22));
+                } else {
+                    System.out.println("Error: división por cero");
+                }
+                break;
+            default:
+                System.out.println("Operación no válida");
+        }
+        //-----------------4.12
+        double numA = 10.0, numB = 5.0;
+        int codigo = 3;
+        if (codigo == 1) {
+            System.out.println("Suma: " + (numA + numB));
+        } else if (codigo == 2) {
+            System.out.println("Multiplicación: " + (numA * numB));
+        } else if (codigo == 3) {
+            if (numB != 0) {
+                System.out.println("División: " + (numA / numB));
+            } else {
+                System.out.println("Error: división por cero");
+            }
+        } else {
+            System.out.println("Código de selección no válido.");
+        }       } else {
+                System.out.println("Error: división por cero");
+            }
+        } else {
+            System.out.println("Código de selección no válido.");
+    }
     } 
 }       
     
